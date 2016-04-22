@@ -18,8 +18,12 @@
         resizer.style.bottom = '0';
         resizer.style.right = '0';
         resizer.style.position = 'absolute';
-        resizer.style.width = '10px';
-        resizer.style.height = '10px';
+        resizer.style.width = '16px';
+        resizer.style.height = '16px';
+        resizer.style.background =" url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAUVBMVEUAAACqqqr+/v4vLy/6+vr+/v7+/v4AAABzc3Nvb2////+2trbJycnr6+vPz891dXVzc3OhoaF3d3eioqJ9fX2goKC+vr5/f3/Ly8t8fHz+/" +
+            "v4NyOEeAAAAG3RSTlMAjgtAaEpbR3wQA3dyanYndRN+L4g2mjByeR/" +
+            "NwbV+AAAARklEQVR4XmMgDTAzokqwM7KgybMxockzoctziqLJc/" +
+            "ChynNws6LK87ByEZLnF4DLCwoB5YVFeMECYkB5cQmgfkleKQYiAADT4wJh2XodKgAAAABJRU5ErkJggg==')"
         node.appendChild(resizer);
         var doDrag = function(e) {
            node.style.width = (startWidth + e.clientX - startX) + 'px';
