@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Resizable Element Example Using JavaScript</title>
+        <style>
+            div{  height: 200px; width: 300px;  margin:10px; background: lightgoldenrodyellow}
+            div#sandeep1{width:600px;}
+        </style>
+    </head>
+    <body>
+    <h2>ResizableNode Example 1:</h2>
+        <div id="sandeep1">Hello Developer, I can be resized.</div>
+    <h2>ResizableNode Example 2:</h2>
+        <div id="sandeep2">Hello , I can be resized.</div>
+    </body>
+    <script src="script.js"></script>
+    <script>
+        var ResizableNode1 = new ResizableNode({
+            content: '#sandeep1'
+        });
+        var ResizableNode2= new ResizableNode({
+            content: '#sandeep2'
+        });
+    </script>
+</html>
